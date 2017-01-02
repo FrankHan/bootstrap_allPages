@@ -1,0 +1,50 @@
+/*
+ *这是文章详情页的css，相当于在mui和bootstrap, app.css的基础上再修改
+ * 
+ * */
+
+
+
+/*下面是这里自定义的style 需放在mui.min.css引用之后），这样就可以覆盖mui默认的背景色定义 http://ask.dcloud.net.cn/article/87*/  
+/*.mui-bar{
+background-color: white;
+}*/
+/*注意导航栏色变了 页面颜色没有改变*/
+
+/*tab被激活之后的颜色 原始#007aff   airq#6699cc 深紫色#666699 紫灰色#999999 */
+/*.mui-bar-tab .mui-tab-item.mui-active
+{
+    color: #007aff ;  
+}*/
+
+/*文章详情页背景改为白色*/
+/*.mui-content{
+	background-color:#FFFFFF ;  
+}*/
+
+/*文章详情页字体改为黑色*/
+/*p {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #000000
+}*/
+
+/*文章详情页背景改为微信色*/
+.mui-content{
+	background-color:#f3f3f3;  
+}
+img {
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 16px; /*微信字号*/
+    margin-top: 15px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: #3e3e3e; /*微信颜色*/
+   line-height:25.6px;/*微信*/
+}

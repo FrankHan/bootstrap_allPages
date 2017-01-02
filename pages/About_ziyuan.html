@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+		
+				   <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+	
+				   <!-- 文章页面的 CSS在这里再修改 -->
+    <link href="../css/pages.css" rel="stylesheet">	
+		
+	</head>
+	<body>
+		
+		
+
+		
+	
+
+
+
+<!--bootstrap导航栏开始-->	
+		   <!--<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">-->
+		   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" id="collapse" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#"> 三体纪年表 </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <!--<li class="active"><a href="#Preface">人物概述</a></li>-->
+            <li><a href="#Part-1">魔法纪元</a></li>
+            <li><a href="#Part0">黄金时代</a></li>
+            <li><a href="#Part1">危机纪元</a></li>
+            <li><a href="#Part2">威摄纪元  </a></li>
+            <li><a href="#Part3">威慑后纪元 </a></li>    
+            <li><a href="#Part3">广播纪元 </a></li>
+            <li><a href="#Part3">掩体纪元 </a></li>
+            <li><a href="#Part3">银河纪元 </a></li>
+            <li><a href="#Part3">DX3906星系黑域纪元</a></li>
+            <li><a href="#Part3">647号宇宙时间线公元 </a></li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+<!--bootstrap导航栏结束-->
+			
+			
+			
+			<div class="mui-content-padded">
+	
+	
+	
+	
+<!--文章正文开始-->
+<div class="container">    	
+     <div class="starter-template" >
+      <!--<div class="jumbotron">-->
+
+<!-- <p class="well">  -->
+<!--<p class="alert alert-success">--> 	
+	
+	
+<!--创建一个假位置id，因为锚点定位收到navbar的影响-->      
+<h1 id="Part1"> &nbsp; </h1>   
+<h3>学会简介</h3>
+<div class="col-md-6">
+          <table class="table table-striped">
+            <!--<thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>-->
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+
+
+
+
+
+	</div>
+</div>
+<!--文章正文结束-->				
+				
+				
+			</div>
+
+		
+		
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="js/ie10-viewport-bug-workaround.js"></script>-->
+    
+    <!--自动折叠导航栏-->
+    <script type="text/javascript">
+    	$(".nav > li > a").click(function(){  
+$('#collapse').addClass("collapsed");  
+$('#collapse').attr("aria-expanded",false);  
+$("#navbar").removeClass("in");  
+$("#navbar").attr("aria-expanded",false);  
+});  
+    </script>		
+		
+		
+		
+		
+	</body>
+	<!--<script src="../js/mui.min.js"></script>-->  
+		<!--若引用了这个js在文章页面无法实现返回?-->
+
+
+	
+	
+</html>
